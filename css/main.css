@@ -82,6 +82,7 @@ body {
     rgba(74, 19, 140, 1) 100%
   );
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
 }
 
@@ -111,6 +112,8 @@ body {
 
 .step {
   text-align: center;
+  margin-top: 1rem;
+  border-radius: 3rem;
 }
 
 .step__line {
@@ -140,6 +143,12 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+body *::selection {
+  background-color: white !important;
+  color: #5421ef !important;
+  clip-path: inset(8px round 8px) !important;
 }
 
 /*TODO: Setup a clean grid and fix the centering problem*/
