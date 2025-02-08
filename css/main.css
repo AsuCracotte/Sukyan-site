@@ -148,7 +148,13 @@ body {
 body *::selection {
   background-color: white !important;
   color: #5421ef !important;
-  clip-path: inset(8px round 8px) !important;
+  padding: 2px !important;
+}
+
+body *::-moz-selection {
+  background-color: white !important;
+  color: #5421ef !important;
+  padding: 2px !important;
 }
 
 /*TODO: Setup a clean grid and fix the centering problem*/
