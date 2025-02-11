@@ -157,4 +157,33 @@ body *::-moz-selection {
   padding: 2px !important;
 }
 
+.main-content-404 {
+  font-family: "Inter", regular;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.error {
+  max-width: 600px;
+}
+
+.error__title {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.error__subtitle {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.error__description {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+
 /*TODO: Setup a clean grid and fix the centering problem*/
